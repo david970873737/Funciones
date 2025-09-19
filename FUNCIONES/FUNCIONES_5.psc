@@ -1,0 +1,19 @@
+Funcion LETRA<- PEDIR_LETRA()
+	DEFINIR LETRA Como Caracter
+	Escribir "ESCRIBE UNA LETRA DEL ALFABETO"
+	Leer LETRA
+	
+FinFuncion
+
+Funcion PEDIR_MENSAJE(LETRA)
+	Escribir "TU LETRA ASIGNADA ES :" + LETRA
+	
+	
+FinFuncion
+Algoritmo FUNCIONES_5
+	
+	LETRAASIGNADA<- PEDIR_LETRA()
+	PEDIR_MENSAJE(LETRAASIGNADA)
+	
+	
+FinAlgoritmo
